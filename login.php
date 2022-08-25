@@ -10,7 +10,7 @@ $token = get_token(20);
 $_SESSION['token'] = $token;
 $referer = filter_input(INPUT_SERVER, 'HTTP_REFERER');
 //$referer= $_SERVER['HTTP_REFERER'];   
-//include("login_action.php");  
+///include("login_action.php");  
 if ($isLogged):
     redirect('index.php');
 endif;
